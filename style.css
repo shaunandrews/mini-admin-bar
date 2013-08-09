@@ -1,0 +1,70 @@
+html.wp-toolbar {
+	padding-top: 0 !important;
+}
+
+
+#wpadminbar {
+	height: 65px;
+	width: 150px;
+	min-width: 0;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+#wpadminbar li {
+	float: none;
+}
+#wp-admin-bar-wp-logo {
+	display: none;
+}
+#wpadminbar #wp-admin-bar-updates,
+#wpadminbar #wp-admin-bar-comments,
+#wpadminbar #wp-admin-bar-new-content {
+	float: left;
+}
+#wpadminbar #wp-admin-bar-updates,
+#wpadminbar #wp-admin-bar-comments {
+	border-right: 1px solid rgba(255,255,255,0.05);
+}
+#wp-admin-bar-site-name .ab-item {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+#wpadminbar #wp-admin-bar-updates .ab-item {
+	width: 47px;
+	padding: 0 5px;
+}
+#wpadminbar #wp-admin-bar-comments .ab-item {
+	width: 47px;
+	padding: 0 5px;
+}
+#wpadminbar #wp-admin-bar-new-content .ab-item {
+	width: 20px;
+	padding: 0 7px;
+}
+#wp-admin-bar-new-content .ab-label,
+#wp-admin-bar-new-content .ab-sub-wrapper,
+#wp-admin-bar-site-name .ab-sub-wrapper {
+	display: none;
+}
+#wpadminbar #wp-admin-bar-my-account {
+	float: none;
+	position: fixed;
+		top: 0;
+		right: 0;
+	background: rgba(0,0,0,0.5);
+}
+
+#screen-meta-links {
+	margin-right: 180px
+}
+
+
+#adminmenuwrap,
+.sticky-menu #adminmenuwrap {
+	top: 80px;
+}
+#adminmenu {
+	margin-top: 0;
+}
+
+.wrap {
+	margin-top: 0;
+}
